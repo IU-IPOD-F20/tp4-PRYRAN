@@ -102,19 +102,19 @@ endif::[]
 //------------------------------------ 
 == {assignment}
 
-{lastName}:: BRUEL
+{lastName}:: Artem
 
-{firstName}:: Jean-Michel
+{firstName}:: Kozlov
 
 {group} #::
 
 [%interactive]
-- [X] {Enseignants}
+- [ ] {Enseignants}
 - [ ] 1
 - [ ] 2
 - [ ] 3
 - [ ] 4
-- [ ] Innopolis
+- [X] Innopolis
 
 //------------------------------------ 
 == {requirements}
@@ -392,7 +392,7 @@ public interface Action  {
 ----
 +
 . Declare a class by action (menu option) to use. Start with "List of agency accounts":
-.. Create a class (the name `ActionAccountsLists` seems suitable) in the package `application.action`,
+.. Create a class (the name `AccountsListsAction` seems suitable) in the package `application.action`,
 .. which implements `Action`,
 .. with two attributes `(message, code)`
 .. write the code including a correctly configured constructor,
